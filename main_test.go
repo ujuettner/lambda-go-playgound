@@ -18,7 +18,7 @@ func TestHandler(t *testing.T) {
 	}{
 		{
 			request: events.APIGatewayProxyRequest{Body: "YourName"},
-			expect:  "Hello YourName",
+			expect:  "Hi there, YourName",
 			err:     nil,
 		},
 		{
