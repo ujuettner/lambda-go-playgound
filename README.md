@@ -5,7 +5,7 @@ $ go test
 $ go build -o main
 $ zip lambda-go-playgound.zip main
 $ aws lambda create-function \
---region eu-central-1 \
+--region <Region> \
 --function-name LambdaGoPlayground \
 --zip-file fileb://./lambda-go-playgound.zip \
 --runtime go1.x \
